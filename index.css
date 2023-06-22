@@ -1,0 +1,194 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient( 115deg, rgba(28, 28, 59, 0.8), rgba(163, 163, 204, 0.7) ), url(IMG_20230412_142120.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    width: 700px;
+    height: auto;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center; 
+    opacity: 0.7;
+
+}
+
+.title{
+    margin-bottom: 40px;
+    text-align: center;
+    width: 700px;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 2px 1px black;
+    margin: 0;
+}
+
+span{
+    font-size:20px;
+    color: white;
+    text-shadow: 1px 2px 1px black;
+}
+
+p{
+    margin-left: 40px;
+}
+
+.group{
+    background-color: #113f67;
+    color: white;
+    width: 700px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.group:nth-child(2){
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.group:nth-child(9){
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#label-first-name{
+    margin: 40px 0 0 40px;
+}
+
+#label-last-name,#label-email{
+    margin-top: 10px;
+}
+label{
+    margin-left: 40px;
+}
+
+input{
+    margin: 5px 0 0 40px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#feature{
+    margin-top: 20px;
+}
+
+select{
+    height: 40px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#first-name,#last-name,#email{
+    width: 600px;
+    height: 30px;
+}
+
+#group-checkbox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+#group-checkbox p{
+    grid-column:span 2;
+}
+
+#label-comunnity{
+    grid-column: 2;
+    margin-left: -230px;
+}
+
+#input-comunnity{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: -170px;
+}
+
+#label-forum{
+    grid-column: 2;
+    margin-left: -230px;
+}
+
+#input-forum{
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: -170px;
+}
+
+#label-challenges{
+    grid-column: 2;
+    margin-left: -230px;
+}
+
+#input-challenges{
+    grid-column: 1;
+    grid-row: 4;    
+    margin-left: -170px;
+}
+
+#label-courses{
+    grid-column: 2;
+    margin-left: -230px;
+}
+
+#input-courses{
+    grid-column: 1;
+    grid-row: 5;    
+    margin-left: -170px;
+}
+
+#label-videos{
+    grid-column: 2;
+    margin-left: -230px;
+}
+
+#input-videos{
+    grid-column: 1;
+    grid-row: 6;    
+    margin-left: -170px;
+}
+
+textarea{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 600px;
+    box-shadow: 2px 2px 2px black;
+}
+
+button{
+    width: 600px;
+    height: 40px;
+    margin: 20px 0 60px 40px;
+    border-radius: 5px;
+    background-color:#7dd87d; 
+    color: white;
+    font-size: 20px;
+
+}
+

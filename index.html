@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+    <title>Survey</title>
+</head>    
+<main class="container">
+    <div class="title">
+        <h1>DogTraining Survey</h1>
+        <span>thank you for taking your time to help us improve</span>    
+    </div>
+    <div class="group">        
+        <label for="first-name" id="label-first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter your first name">
+    </div>
+    <div class="group">
+        <label for="last-name" id="label-last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Enter your last name">
+    </div>
+    <div class="group">
+        <label for="email" id="label-email">Email</label>
+        <input type="text" name="email" id="email" placeholder="Enter your email">
+    </div>
+    <div class="group">        
+        <p>Would you recommend DogTraining to a friend?</p>
+        <label for="definetly">
+            <input type="radio" name="definitely"> Definitely
+        </label>
+        <label for="maybe">
+            <input type="radio" name="maybe"> Maybe
+        </label>
+        <label for="not really">
+            <input type="radio" name="not really"> Not really
+        </label>
+            
+    </div>
+    <div class="group">
+        <label for="feature" id="feature">What is your favorite feature about DogTraining?</label>
+        <select name="feature" id="select-feature">
+            <option value="">--Select an option--</option>
+            <option value="comunnity">Comunnity</option>
+            <option value="courses">Courses</option>
+            <option value="challenges">Challenges</option>
+        </select>
+    </div>
+    <div class="group" id="group-checkbox">
+        <p>What would you like us to improve? (Check all that apply)</p>
+        <label for="comunnity" id="label-comunnity">Comunnity</label>
+            <input type="checkbox" name="comunnity" id="input-comunnity">
+        <label for="forum" id="label-forum">Forum</label>
+            <input type="checkbox" name="forum" id="input-forum">
+        <label for="challenges" id="label-challenges">Challenges</label>
+            <input type="checkbox" name="challenges" id="input-challenges">
+        <label for="courses" id="label-courses">Courses</label>
+            <input type="checkbox" name="courses" id="input-courses">
+        <label for="videos" id="label-videos">Videos</label>
+            <input type="checkbox" name="videos" id="input-videos">
+    </div>
+    <div class="group">
+        <p>Any other information you would like to share?</p>
+        <textarea name="comment" id="comment" cols="30" rows="4">You can provide comments, suggestions, or feedback here...</textarea>
+    </div>
+    <div class="group">
+        <button type="submit">Submit</button>
+    </div>
+        
+    
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
